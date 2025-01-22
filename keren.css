@@ -1,0 +1,114 @@
+body{
+    overflow: hidden;
+    background-image: url(asset/Home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.judul {
+    margin: 0;
+    height: 13vw;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+}
+.judul_isi{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10vh;
+    margin-left: 40vw;
+    background: linear-gradient(90deg, rgb(0, 242, 255),rgb(10, 160, 253)); /* Warna gradasi */
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;  
+    margin-top: 100px;
+}
+
+.judul2{
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    justify-content: center;
+    margin-left: 59vw;
+    color: rgb(10, 160, 253);
+    height: 6vw;
+}
+
+.isi{
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Segoe UI';
+    justify-content: center;
+    margin-left: 59vw;
+    height: 15vw;
+    color: dimgray;
+}
+
+.judul3{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    justify-content: center;
+    margin-left: 59vw;
+    color: rgb(10, 160, 253);
+}
+
+.isi2{
+    font-size: 22px;
+    font-family: 'Segoe UI';
+    justify-content: center;
+    margin-left: 59vw;
+    height: 5vh;
+    color: dimgray;
+}
+
+.tambahan{
+    font-size: 22px;
+    font-family: 'Segoe UI';
+    justify-content: center;
+    margin-left: 59vw;
+    height: 0vh;
+}
+
+.aboutme{
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    justify-content: center;
+    margin-left: 59vw;
+    color: rgb(10, 160, 253);
+    height: 3vw;
+}
+
+.aboutmeisi{
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Segoe UI';
+    justify-content: center;
+    margin-left: 59vw;
+    height: 18vw;
+    color: dimgray;
+}
+
+.aboutme2{
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    justify-content: center;
+    margin-left: 59vw;
+    color: rgb(10, 160, 253);
+    height: 2vw;
+}
+
+.nama{
+    font-size: 22px;
+    font-family: 'Segoe UI';
+    justify-content: center;
+    margin-left: 59vw;
+    height: 5vh;
+    color: dimgray;
+}
+
+.error {
+    justify-content: center;
+    font-size: 50px;
+}
